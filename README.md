@@ -7,21 +7,21 @@ Simple Rest API that provides CRUD for Posts and Users
   
   Expected Input:
   {
-    title
-    content
+    - title
+    - content
   }
   
   Expected Output:
   {
-    url,
-    id,
-    title,
-    user,
-    content,
-    likes,
-    dislikes,
-    rating,
-    timestamp,
+    -url,
+    -id,
+    -title,
+    -user,
+    -content,
+    -likes,
+    -dislikes,
+    -rating,
+    -timestamp,
   }
   
 
