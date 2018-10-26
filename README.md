@@ -7,7 +7,7 @@ Simple Rest API that provides CRUD for Posts and Users
 
 **Retrieve, Update, Delete Post:**
 
-  ~/api/posts/<pk>/
+  ~/api/posts/pk/
   - where pk - Post id
   
 **Login:**
@@ -24,8 +24,8 @@ Simple Rest API that provides CRUD for Posts and Users
 
 **Like Post:**
 
-  ~/api/posts/like/<pk>
+  ~/api/posts/like/pk
   
 **Dislike Post:**
 
-  ~/api/posts/dislike/<pk>
+  ~/api/posts/dislike/pk
