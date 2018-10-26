@@ -8,7 +8,7 @@ Simple Rest API that provides CRUD for Posts and Users
 **Retrieve, Update, Delete Post:**
 
   ~/api/posts/<pk>/
-  where pk - Post id
+  - where pk - Post id
   
 **Login:**
 
