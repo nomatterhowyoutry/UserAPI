@@ -6,24 +6,22 @@ Simple Rest API that provides CRUD for Posts and Users
   ~/api/posts/
   
   Expected Input:
-  {
-    - title
-    - content
-  }
   
+ * title
+ * content
+    
   Expected Output:
-  {
-    -url,
-    -id,
-    -title,
-    -user,
-    -content,
-    -likes,
-    -dislikes,
-    -rating,
-    -timestamp,
-  }
   
+ * url
+ * id
+ * title
+ * user
+ * content
+ * likes
+ * dislikes
+ * rating
+ * timestamp
+    
 
 **Retrieve, Update, Delete Post:**
 
@@ -35,22 +33,20 @@ Simple Rest API that provides CRUD for Posts and Users
   ~/api/auth/login/
   
   Expected Input:
-  {
-    username,
-    email(required),
-    password(required),
-  }
+ 
+ * username
+ * email(required)
+ * password(required)
 
 **Register new User:**
 
   ~/api/auth/register/
   
   Expected Input:
-  {
-    username,
-    email(required),
-    password(required),
-  }
+  
+ * username
+ * email(required)
+ * password(required)
 
 **Logout:**
 
