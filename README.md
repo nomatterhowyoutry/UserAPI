@@ -1,31 +1,31 @@
 # UserAPI
 Simple Rest API that provides CRUD for Posts and Users
 
-Get Post List and Create new one:
+**Get Post List and Create new one:**
 
   ~/api/posts/
 
-Retrieve, Update, Delete Post:
+**Retrieve, Update, Delete Post:**
 
   ~/api/posts/<pk>/
-    where pk - Post id
+  where pk - Post id
   
-Login:
+**Login:**
 
   ~/api/auth/login/
 
-Register new User:
+**Register new User:**
 
   ~/api/auth/register/
 
-Logout:
+**Logout:**
 
   ~/api/auth/logout/
 
-Like Post:
+**Like Post:**
 
   ~/api/posts/like/<pk>
   
-Dislike Post:
+**Dislike Post:**
 
   ~/api/posts/dislike/<pk>
